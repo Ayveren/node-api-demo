@@ -59,7 +59,7 @@ const routes = function (Book) {
         .delete(function (req, res) {
             req.book.remove(function (err) {
                 err && res.status(500).send(err);
-                !err && req.status(204).send('Removed');
+                !err && res.status(204).send('Removed');
             });
         });
 
