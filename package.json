@@ -12,6 +12,7 @@
   "author": "ayveren",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
